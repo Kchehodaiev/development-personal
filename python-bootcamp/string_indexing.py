@@ -1,4 +1,5 @@
 movie = 'The Kingdom of Heaven'
+# indexing starts from 0, so the first character of the string is at index 0, the second character is at index 1, and so on.
 print(movie[3]) # prints the fourth character, which is space
 print(movie[2]) # prints out the third character, which is 'e'
 print(movie[-1]) # Negative indexing starts from the end of the string, so -1 refers to the last character, which is 'n' in this case.

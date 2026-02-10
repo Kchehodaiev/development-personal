@@ -8,7 +8,8 @@ print("Hi there I'm Kirill")
 
 # to define a multiline string use triple doublequotes
 
-language = """I like py
+language = """I like 
+py
 go
 java
 

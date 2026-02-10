@@ -13,7 +13,8 @@ print('was directed by', 'michael bay', '123') # This will concatenate the two s
 language = 'Python'
 version = 3.10
 # print(language + version) # This will raise a TypeError because we cannot concatenate a string with a float.
-print(language + ' ' + str(version)) # This will concatenate the string 'Python' with the string representation of the float 3.10, resulting in 'Python 3.10'
+print(language + ' ' + str(version)) # This will concatenate the string 'Python' with the string representation of the float 3.10, resulting in 'Python 3.10'. Or you can use f-strings to achieve the same result in a more concise and readable way.
+print(f'{language} {version}') # This will also print 'Python 3.10
 
 # * operator can be used to repeat a string a certain number of times
 print((movie + ' ') * 5) # This will print the value of the variable movie 5 times

@@ -16,3 +16,9 @@ print(movie[:1] + movie[1:]) # prints 'The Kingdom of Heaven'
 print(movie[0:5:2]) # prints every second character from index 0 to 4, which is 'TeK'
 print(movie[::2]) # prints every second character from the entire string, which is 'TeKndmo evn'
 print(movie[::-1]) # prints the string in reverse order, which is 'nevaeH fo modgniK ehT'
+
+digits = '0123456789'
+
+##YOUR CODE STARTS HERE
+#using string slicing, create a variable called x that stores the substring '9630'
+x = print(digits[9::-3]) # Or x = digits[::-3]
