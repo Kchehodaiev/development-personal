@@ -38,7 +38,7 @@ print('To comment a line of code you') # at the beginning of the line.
 
 # Add parenthesis to change the order of operations so that a is 1.0
 
-a = (16 / (2 + 6) / 2)  2
+a = (16 / (2 + 6) / 2) 
 print(a)
 
 # An IPv6 address is represented using 128 bits.
