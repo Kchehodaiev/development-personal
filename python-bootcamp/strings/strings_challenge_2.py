@@ -45,7 +45,7 @@ Write a Python script that displays a number with a comma (,) as the thousands s
 and with a period(.) as the thousands separator (EU format).
 """
 number = int(input('Enter a number:')) # User input that converts to an int
-print(f'{number:,}') # using Python formatting to put ',' as a thousands separator (build-in logic in Python)
+print(f'{number:,}') # using Python formatting to put ',' as a thousands separator (build-in logic in Python automatically puts coma every 3 characters)
 print(f"{number:,}".replace(",", ".")) # converting resulting integer with a replace method to put '.' instead of ','
 
 n = 12384756982 # already an integer, no need to convert
