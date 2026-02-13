@@ -115,13 +115,3 @@ my_str = input('Enter a string:')
 new_str = my_str[:2] + my_str[-2:]
 print(new_str)
 
-# Challenge 7 
-
-"""
-Write a Python program to get a string from a given string where all occurrences of its first character have been changed to '$'
-except the first character itself.
-
-Sample String: 'mama'
-
-Expected Result: 'ma$a'
-"""
