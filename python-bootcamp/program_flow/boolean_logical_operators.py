@@ -1,7 +1,7 @@
 # and or not
 # AND operator
 age = 6
-print(age > 0 and age < 18) # returns true can be also written like '0 < a < 18' but that's not readable
+print(age > 0 and age < 18) # returns True can be also written like '0 < a < 18' but that's not readable
 age = 20
 
 print(age > 0 and age < 18) # returns False if at least one of the statements is False

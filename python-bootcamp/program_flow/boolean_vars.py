@@ -49,3 +49,7 @@ else:
     print(f'truthy value for var1 is {bool(var1)}') # False value if the string or int is empty or 0 respectively
 
 
+c = 1
+
+print(f'Truthy value of c is {bool(c)}')
+
