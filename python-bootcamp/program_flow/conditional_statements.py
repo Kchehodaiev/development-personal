@@ -31,7 +31,7 @@ print('Other instructions, not part of If/else statement') # if we indent this l
 # else:
 #     print('Invalid answer')
 
-age = 20
+age = '20'
 if age in '20 years':
    print('He is 20 years old')
 else:

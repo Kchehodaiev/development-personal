@@ -1,7 +1,7 @@
 # A loop means execute smth repetitevely
 
 # FOR LOOPS
-for letter in 'Python':
+for letter in 'Python and Java':
     print(letter)
 
 for list in [1, 2, 3]:

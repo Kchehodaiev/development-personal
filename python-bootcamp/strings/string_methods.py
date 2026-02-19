@@ -53,7 +53,7 @@ print(n)
 
 my_list = txt.split()
 print(my_list) # ['I', 'love', 'PytHon,', 'pYthon', 'is', 'great!'] By default it uses spaces, tabs and new lines as a delimiter
-# But you can pass it a customer delimiter:
+# But you can pass it a custom delimiter:
 print('1.2.3.4'.split('.')) # ['1', '2', '3', '4']
 
 # 7. str.join() makes the opposite of split - it joins the lists to the string.

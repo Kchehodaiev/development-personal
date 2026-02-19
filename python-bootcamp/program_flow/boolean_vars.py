@@ -24,7 +24,7 @@ print(id(True), id(1)) # returs different addresses in RAM
 print(3 == False) # False
 print(0 == False) # True
 
-print('4' == 4)
+print('4' == 4) # False
 
 a, b = 1, 3
 
@@ -49,7 +49,7 @@ else:
     print(f'truthy value for var1 is {bool(var1)}') # False value if the string or int is empty or 0 respectively
 
 
-c = 1
+c = 0
 
 print(f'Truthy value of c is {bool(c)}')
 

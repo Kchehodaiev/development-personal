@@ -12,7 +12,7 @@ print(age > 0 and age < 28 and 'Danny' in name) # returns False bcuz Danny subst
 
 # OR operator
 age, name = 6, 'Daniel'
-print(age < 5 or name == 'Daniel') # Returns true as long as at least 1 of expressions is True. 
+print(age < 5 or name == 'Daniel') # Returns True as long as at least 1 of expressions is True. 
 
 # NOT operator
 # the not operator will simply negate the expressions truthy value. Truthy value reverted.
