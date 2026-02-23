@@ -30,3 +30,31 @@ c = 0
 for i in 'abc xyz':
     c = c+1
 print(c)
+
+# sum all numbers in a range of 100 
+s = 0
+for n in range(11):
+    s +=n
+    print(n)
+print(f'the summed is {s}')
+
+
+# Picking up a random winner
+import random
+
+names = [
+    'anna',
+    'josh',
+    'Wiener',
+    'dick',
+    'prick'
+]
+
+# in python we can use '_' as an iteration variable as we will not use it anywhere else outside the loop.
+# basically we use '_' iteration var to say how many times the loop should execute.
+for _ in range(3): 
+     
+    print(f'Choosed a winner in round {int(_ + 1)}...')
+    winner = random.choice(names)
+    print(winner)
+    names.remove(winner)
