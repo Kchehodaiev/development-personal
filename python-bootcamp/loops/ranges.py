@@ -1,5 +1,5 @@
-# Ranges
-r = range(2, 10)
+# Ranges - is basically a sequence
+r = range(2, 10) # to declare a sequence
 print(r) # outputs nothing
 print(type(r)) # class of range
 print(list(r)) # outputs a list of integers [2, 3, 4, 5, 6, 7, 8, 9]

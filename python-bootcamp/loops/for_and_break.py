@@ -21,7 +21,7 @@ for n in range(1, 10):
      if n % 13 == 0:
           print(f'the number {n} is divisible by 13, breaking out...')
           break
-else:                               # Here 'else' stmnt pertains to for loop, not to 'if', and it will execute if the loop isn't broken and when the loop gets gets exhausted of the iterables.
+else:                               # Here 'else' stmnt pertains to for loop, not to 'if', and it will execute if the loop isn't broken and when the loop gets exhausted of the iterables.
      print(f'Loop exhaused iterables and ended')
 
 
